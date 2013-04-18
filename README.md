@@ -1,10 +1,10 @@
 #Nodo de Guerrilla#
 
-Texto basado en la experiencia en la //Sala Alberdi//, todavía la experiencia no fue concluida y a tenido varios éxitos y fracasos.
+Texto basado en la experiencia en la __Sala Alberdi__, todavía la experiencia no fue concluida y a tenido varios éxitos y fracasos.
 
 ##Situación##
 
-Es una acampe en una plaza seca y la toma de una sala de teatro en el 6to piso del //Centro Cultural San Martín//.
+Es una acampe en una plaza seca y la toma de una sala de teatro en el 6to piso del __Centro Cultural San Martín__.
 
 El problema que se plantea es tener una conexión a internet e intranet para la comunicación interna del grupo y sobre todo comunicación con la gente encerrada en el 6to piso.
 
@@ -89,7 +89,6 @@ Como difundir y manejar le red. Manejar bien la información, hacer la red inter
 - Portal cautivo
 - IRC web (con cgi)
 - Upload (con cgi)
-- VPN
+- VPN y Librevpn
 - Editor simple para el portal cautivo (posiblemente http://freifunk.net/)
 - Explicar como montar todo en una ISO
-
