@@ -1,20 +1,20 @@
+> [x] esta hecho
+
 Conectividad:
 -------------
 
-	0) Conectador a redes abiertas (por señal			[x]
-		- se conete a los routers de una lista (wep o wap)	[x]
-		- rompa redes en su tiempo libre
-	1) Transmisor a internet suficiente
-		- enviar track de sonidos uno tras otro
-		- enviar fotos en secuencia 				[x]
+# Conectador a redes abiertas (por señal [x]
+ - se conete a los routers de una lista (wep o wap) [x]
+ - rompa redes en su tiempo libre
+# Transmisor a internet suficiente
+ - enviar track de sonidos uno tras otro
+ - enviar fotos en secuencia [x]
 
 Servicios:
 ----------
 
 	0) Transmisor con AP y/o Portal cautivo (solo para clientes)
  	1) Clon de un wifi (solo a redes abiertas)
-
-===========================
 
 Piezas:
 -------
@@ -29,17 +29,17 @@ Piezas:
 	- chat con mosquitto
 	- lvpn
 
-----------------------------
-
 Mecanica:
 ---------
 
+<pre>
 	Lista de redes (enlistada por potencia)
 		|
 	¿alguna conocida?
 		| \ SI: me conecto
 	hay redes abiertas
 		\ SI: me conecto
-	
-	paralelamente: busco redes wps, wep y wap enlistadas por potencia y trato de romperlas
+</pre>	
+
+**paralelamente:** busco redes wps, wep y wap enlistadas por potencia y trato de romperlas.
 

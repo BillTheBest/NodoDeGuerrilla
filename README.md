@@ -1,5 +1,6 @@
 #Nodo de Guerrilla#
 
+
 Texto basado en la experiencia en la _Sala Alberdi_, todavía la experiencia no fue concluida y a tenido varios éxitos y fracasos.
 
 ##Situación##
@@ -17,6 +18,52 @@ Luego de conectar a internet se necesita algo que transmita la información a la
 Dada la configuración del router este se conecta solo a internet, a la red con mayor señal y disponibilidad de internet.
 
 Portal cautivo para los vecinos y personas que se conectan por primera vez a la red, informando como usar la red, y sus características. Esto da la posibilidad de un encuentro con los vecinos de un modo diferente, tener un lugar donde informar sobre los sucesos, y explicar las características de la condición de la red. (no aplicado todavía)
+
+## Conectividad:
+-------------
+
+# Conectador a redes abiertas por señal [x]
+ - se conete a los routers de una lista (wep o wap) [x]
+ - rompa redes en su tiempo libre
+# Transmisor a internet suficiente
+ - enviar track de sonidos uno tras otro
+ - enviar fotos en secuencia [x]
+
+Servicios:
+----------
+
+# Transmisor con AP y/o Portal cautivo (solo para clientes)
+# Clon de un wifi (solo a redes abiertas)
+
+Piezas:
+-------
+
+- polipo + tinyproxy + ziproxy
+- portal cautivo = dnsmasq + uhttpd + polipo (?)
+> echo "address=/#/gaspacho.local" >> /etc/dnsmasq.conf
+> nocatsplash mejor que dnsmasq
+> armador de temas en bootstrap [x] + contenido adhoc 
+- transmisor = mjpeg [x] + sox
+- rompedor de claves = script con aircrack
+- imitador de wifi = algo que lea MAC, frecuencia, SSID y los ponga en el router.
+- chat con mosquitto
+- lvpn
+
+Mecanica:
+---------
+
+<pre>
+	Lista de redes (enlistada por potencia)
+		|
+	¿alguna conocida?
+		| \ SI: me conecto
+	hay redes abiertas
+		\ SI: me conecto
+</pre>	
+
+**paralelamente:** busco redes wps, wep y wap enlistadas por potencia y trato de romperlas.
+
+---
 
 
 ###Problemas cotidianos###
@@ -92,3 +139,5 @@ Como difundir y manejar le red. Manejar bien la información, hacer la red inter
 - VPN y Librevpn
 - Editor simple para el portal cautivo (posiblemente http://freifunk.net/)
 - Explicar como montar todo en una ISO
+> [x] esta hecho
+
