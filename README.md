@@ -37,9 +37,9 @@ Portal cautivo para los vecinos y personas que se conectan por primera vez a la 
 
 - polipo + tinyproxy + ziproxy
 - portal cautivo = dnsmasq + uhttpd + polipo (?)
-> echo "address=/#/gaspacho.local" >> /etc/dnsmasq.conf
-> nocatsplash mejor que dnsmasq
-> armador de temas en bootstrap [x] + contenido adhoc 
+ > echo "address=/#/gaspacho.local" >> /etc/dnsmasq.conf
+ > nocatsplash mejor que dnsmasq
+ > armador de temas en bootstrap [x] + contenido adhoc 
 - transmisor = mjpeg [x] + sox
 - rompedor de claves = script con aircrack
 - imitador de wifi = algo que lea MAC, frecuencia, SSID y los ponga en el router.
