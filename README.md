@@ -1,15 +1,14 @@
-#Nodo de Guerrilla#
-
+#Nodo de Guerrilla
 
 Texto basado en la experiencia en la _Sala Alberdi_, todavía la experiencia no fue concluida y a tenido varios éxitos y fracasos.
 
-##Situación##
+##Situación
 
 Es una acampe en una plaza seca y la toma de una sala de teatro en el 6to piso del _Centro Cultural San Martín_.
 
 El problema que se plantea es tener una conexión a internet e intranet para la comunicación interna del grupo y sobre todo comunicación con la gente encerrada en el 6to piso.
 
-##Solución##
+##Solución
 
 Para resolver el problema que se plantea conectar un router por **wireless** usando redes disponibles, hay varias de ellas de abiertas y **WEP** (y se conoce la clave de muchas de ellas).
 
@@ -37,9 +36,9 @@ Portal cautivo para los vecinos y personas que se conectan por primera vez a la 
 
 - polipo + tinyproxy + ziproxy
 - portal cautivo = dnsmasq + uhttpd + polipo (?)
- > echo "address=/#/gaspacho.local" >> /etc/dnsmasq.conf
- > nocatsplash mejor que dnsmasq
- > armador de temas en bootstrap [x] + contenido adhoc 
+> `echo "address=/#/gaspacho.local" >> /etc/dnsmasq.conf`
+> nocatsplash mejor que dnsmasq
+> armador de temas en bootstrap [x] + contenido adhoc 
 - transmisor = mjpeg [x] + sox
 - rompedor de claves = script con aircrack
 - imitador de wifi = algo que lea MAC, frecuencia, SSID y los ponga en el router.
@@ -59,9 +58,9 @@ Portal cautivo para los vecinos y personas que se conectan por primera vez a la 
 
 **paralelamente:** busco redes wps, wep y wap enlistadas por potencia y trato de romperlas.
 
-###Problemas cotidianos###
+###Problemas cotidianos
 
-####Se desconecta el equipo####
+####Se desconecta el equipo
 
 La mayoría de los equipos electrónicos si se desconectan no ocurre casi nada, en el caso del router deja sin disponibilidad de red a los usuarios, tarda mucho en volver a iniciar cuando se lo reconecta, genera la falsa impresión de que no anda y puede romperse.
 Muchas veces, demasiadas, las cosas no están donde las dejamos o se las desconectan, o cambian de posición y/o forma.
@@ -72,7 +71,7 @@ Muchas veces, demasiadas, las cosas no están donde las dejamos o se las descone
 - No les parece que la red sea importante, igual hay redes a las cuales conectarse.
 
 
-**Solución:**
+#####Solución
 
 - Paciencia
 - Pegarlas, atarlas, encintarlas
@@ -80,22 +79,21 @@ Muchas veces, demasiadas, las cosas no están donde las dejamos o se las descone
 - Baterías con un cargador (no aplicada todavía)
 
 
-####Red interna####
+####Red interna
 
 
 La mayoría de la gente no entiende el conecto de red interna
 
 
-**Solución:**
+#####Solución
 
 Ejemplificar con servicios simple y efectivos. Ejemplo: Paginas de descargas, IRC, Linphone, portal cautivo (no aplicado todavía)
 
-
-####Sobrecarga de la red####
+####Sobrecarga de la red
 
 La red en su mayoría se usa para usos triviales:  Búsquedas, Redes sociales, subir fotos, mandar mails sociales, etc.
 
-**Solución:**
+#####Solución
 
 - Cache: acelera mucho la red
 - Reemplazar paginas por versiones para celulares (no aplicada todavía)
@@ -107,13 +105,13 @@ La red en su mayoría se usa para usos triviales:  Búsquedas, Redes sociales, s
 El pedido constante de internet o una computadora para hacer algo.
 
 
-**Solución:**
+#####Solución
 
 - Decir a cada rato: "No tengo internet"
 - Poner maquinas para este fin (no aplicada todavía)
 
 
-###Información###
+###Información
 
 Como difundir y manejar le red. Manejar bien la información, hacer la red internet y la conexión a internet antes que nada.
 
@@ -124,7 +122,7 @@ Como difundir y manejar le red. Manejar bien la información, hacer la red inter
 - Tener un área técnica y otra para usuarios
 
 
-###Quehaceres###
+###Quehaceres
 
 - Portal cautivo
 - IRC web (con cgi)
@@ -132,5 +130,4 @@ Como difundir y manejar le red. Manejar bien la información, hacer la red inter
 - VPN y Librevpn
 - Editor simple para el portal cautivo (posiblemente http://freifunk.net/)
 - Explicar como montar todo en una ISO
-> [x] esta hecho
 
