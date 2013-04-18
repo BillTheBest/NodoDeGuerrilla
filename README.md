@@ -48,7 +48,7 @@ La mayoría de la gente no entiende el conecto de red interna
 
 **Solución:**
 
-	Ejemplificar con servicios simple y efectivos. Ejemplo: Paginas de descargas, IRC, Linphone, portal cautivo (no aplicado todavía)
+Ejemplificar con servicios simple y efectivos. Ejemplo: Paginas de descargas, IRC, Linphone, portal cautivo (no aplicado todavía)
 
 
 ####Sobrecarga de la red####
