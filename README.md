@@ -1,16 +1,16 @@
 #Nodo de Guerrilla#
 
-Texto basado en la experiencia en la __Sala Alberdi__, todavía la experiencia no fue concluida y a tenido varios éxitos y fracasos.
+Texto basado en la experiencia en la _Sala Alberdi_, todavía la experiencia no fue concluida y a tenido varios éxitos y fracasos.
 
 ##Situación##
 
-Es una acampe en una plaza seca y la toma de una sala de teatro en el 6to piso del __Centro Cultural San Martín__.
+Es una acampe en una plaza seca y la toma de una sala de teatro en el 6to piso del _Centro Cultural San Martín_.
 
 El problema que se plantea es tener una conexión a internet e intranet para la comunicación interna del grupo y sobre todo comunicación con la gente encerrada en el 6to piso.
 
 ##Solución##
 
-Para resolver el problema que se plantea conectar un router por **wireless** usando redes disponibles, hay varias de ellas de abiertas y **WEP** (y se conoce la clave de muchas de ellas). 
+Para resolver el problema que se plantea conectar un router por **wireless** usando redes disponibles, hay varias de ellas de abiertas y **WEP** (y se conoce la clave de muchas de ellas).
 
 Luego de conectar a internet se necesita algo que transmita la información a las maquinas conectadas por aire, para eso se usa un router que pueda ser puesto en modo AP (punto de acceso) y cliente.
 
