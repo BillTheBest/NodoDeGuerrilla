@@ -19,24 +19,21 @@ Dada la configuración del router este se conecta solo a internet, a la red con 
 
 Portal cautivo para los vecinos y personas que se conectan por primera vez a la red, informando como usar la red, y sus características. Esto da la posibilidad de un encuentro con los vecinos de un modo diferente, tener un lugar donde informar sobre los sucesos, y explicar las características de la condición de la red. (no aplicado todavía)
 
-## Conectividad:
--------------
+### Conectividad:
 
-# Conectador a redes abiertas por señal [x]
+- Conectador a redes abiertas por señal [x]
  - se conete a los routers de una lista (wep o wap) [x]
  - rompa redes en su tiempo libre
-# Transmisor a internet suficiente
+- Transmisor a internet suficiente
  - enviar track de sonidos uno tras otro
  - enviar fotos en secuencia [x]
 
-Servicios:
-----------
+### Servicios:
 
-# Transmisor con AP y/o Portal cautivo (solo para clientes)
-# Clon de un wifi (solo a redes abiertas)
+- Transmisor con AP y/o Portal cautivo (solo para clientes)
+- Clon de un wifi (solo a redes abiertas)
 
-Piezas:
--------
+## Piezas:
 
 - polipo + tinyproxy + ziproxy
 - portal cautivo = dnsmasq + uhttpd + polipo (?)
@@ -49,8 +46,7 @@ Piezas:
 - chat con mosquitto
 - lvpn
 
-Mecanica:
----------
+### Mecanica:
 
 <pre>
 	Lista de redes (enlistada por potencia)
@@ -62,9 +58,6 @@ Mecanica:
 </pre>	
 
 **paralelamente:** busco redes wps, wep y wap enlistadas por potencia y trato de romperlas.
-
----
-
 
 ###Problemas cotidianos###
 
