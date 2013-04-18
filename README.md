@@ -35,10 +35,9 @@ Portal cautivo para los vecinos y personas que se conectan por primera vez a la 
 ## Piezas:
 
 - polipo + tinyproxy + ziproxy
-- portal cautivo = dnsmasq + uhttpd + polipo (?)
-> `echo "address=/#/gaspacho.local" >> /etc/dnsmasq.conf`
-> nocatsplash mejor que dnsmasq
-> armador de temas en bootstrap [x] + contenido adhoc 
+- portal cautivo = dnsmasq + uhttpd + polipo (?), muy simple `echo "address=/#/gaspacho.local" >> /etc/dnsmasq.conf`
+ - nocatsplash parece mejor que dnsmasq
+- armador de temas en bootstrap [x] + contenido adhoc 
 - transmisor = mjpeg [x] + sox
 - rompedor de claves = script con aircrack
 - imitador de wifi = algo que lea MAC, frecuencia, SSID y los ponga en el router.
@@ -99,7 +98,7 @@ La red en su mayoría se usa para usos triviales:  Búsquedas, Redes sociales, s
 - Reemplazar paginas por versiones para celulares (no aplicada todavía)
 
 
-####¿Tenes internet?####
+####¿Tenes internet?
 
 
 El pedido constante de internet o una computadora para hacer algo.
