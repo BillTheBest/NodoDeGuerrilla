@@ -1,0 +1,7 @@
+config mjpg-streamer core
+	option enabled		"0"
+	option device		"/dev/video0"
+	option resolution	"352x288"
+	option fps		"4"
+	option www		"/www"
+	option port		"8080"

@@ -1,0 +1,9 @@
+<?xml version="1.0" standalone='no'?><!--*-nxml-*-->
+<!DOCTYPE service-group SYSTEM "avahi-service.dtd">
+<service-group>
+ <name replace-wildcards="yes">IRC de %h</name>
+  <service>
+   <type>_irc._tcp</type>
+   <port>6667</port>
+  </service>
+</service-group>

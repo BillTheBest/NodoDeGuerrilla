@@ -1,0 +1,9 @@
+#!/bin/bash
+#
+#	madplay luego va a ser otro reproductor
+#
+sleep 10
+
+while [ 1 ]; do
+	madplay  /root/descargas/Sonic*/*/*  -z -A -5
+done

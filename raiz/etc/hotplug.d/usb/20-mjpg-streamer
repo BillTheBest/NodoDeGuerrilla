@@ -1,0 +1,13 @@
+case "$ACTION" in
+	add)
+	        # start process
+		echo "hola mundo" > /root/prendi
+		/etc/init.d/mjpg-streamer start
+	        ;;
+	remove)
+	        # stop process
+		echo "hola mundo" > /root/apage
+		/etc/init.d/mjpg-streamer stop
+	        ;;
+esac
+

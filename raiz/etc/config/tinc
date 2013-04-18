@@ -1,0 +1,39 @@
+config tinc-net librevpn
+	option enabled 1
+
+	## Daemon Configuration	(cmd arguments)
+	#option generate_keys 0
+	#option key_size 2048
+	#option log /tmp/log/tinc.NETNAME.log
+	#option debug 3
+
+	## Server Configuration (tinc.conf)
+	#option AddressFamily any
+	#option BindToAddress 127.0.0.1
+	#option BindToInterface lo
+
+	list ConnectTo rasputin
+	list ConnectTo medieval
+	list ConnectTo diablo
+	list ConnectTo ponape
+	list ConnectTo gaspacho
+
+	option Mode switch
+	option Name gaspacho
+
+config tinc-host salaalberdi
+	option enabled 1
+
+	option net librevpn
+
+	#list Address salaalberdi.juancarlosradio.com.ar
+	#option Cipher blowfish
+	#option ClampMSS yes
+	#option Compression 0
+	#option Digest sha1
+	#option IndirectData 0
+	#option MACLength 4
+	#option PMTU 1514
+	#option PMTUDiscovery yes
+	#option Port 655
+	option Subnet 192.168.9.253/32

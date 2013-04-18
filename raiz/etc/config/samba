@@ -1,0 +1,13 @@
+config samba
+	option 'name'			'SalaAlaberdi'
+	option 'workgroup'		'WORKGROUP'
+	option 'description'		'Archivos compartidos'
+	option 'homes'			'1'
+
+config sambashare
+        option 'name'                   'Multimedia'
+        option 'path'                   '/root/Descargas'
+        option 'read_only'              'no'
+        option 'guest_ok'               'yes'
+        option 'create_mask'            '0640'
+        option 'dir_mask'               '0750'

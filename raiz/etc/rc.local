@@ -1,0 +1,17 @@
+# Put your custom commands here that should be executed once
+# the system init finished. By default this file does nothing.
+
+#icecast -b -c /etc/icecast.xml
+
+# streaming simple de video
+# http://sourceforge.net/apps/mediawiki/mjpg-streamer/index.php?title=Output_file
+
+
+# webcam
+/root/mallacritica/video &
+
+# mp3
+/root/mallacritica/mp3 &
+
+
+exit 0

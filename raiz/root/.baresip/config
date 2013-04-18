@@ -1,0 +1,117 @@
+#
+# baresip configuration
+#
+
+#------------------------------------------------------------------------------
+
+# Core
+poll_method		epoll		# poll, select, epoll ..
+
+# Input
+#input_device		/dev/event0
+#input_port		5555
+
+# SIP
+sip_trans_bsize		128
+#sip_listen		127.0.0.1:5050
+
+# Audio
+#audio_player		alsa,/de
+#audio_source		alsa,/dev/dsp
+#audio_player		oss,/dev/dsp
+#audio_source		oss,/dev/dsp
+audio_srate		8000-48000
+audio_channels		1-2
+#audio_aec_length		128 # [ms]
+
+# Video
+#video_source		v4l2,/dev/video0
+video_size		352x288
+video_bitrate		384000
+video_fps		12
+#video_selfview		window # {window,pip}
+
+# AVT - Audio/Video Transport
+rtp_tos			184
+#rtp_ports			10000-20000
+#rtp_bandwidth			512-1024 # [kbit/s]
+rtcp_enable			yes
+rtcp_mux			no
+jitter_buffer_delay	5-10		# frames
+
+# Network
+#dns_server		10.0.0.1:53
+
+#------------------------------------------------------------------------------
+# Modules
+
+module_path		/usr/lib/baresip/modules
+
+# UI Modules
+module			stdio.so
+module			cons.so
+module			evdev.so
+
+# Audio codec Modules (in order)
+#module			g7221.so
+#module			g722.so
+#module			g711.so
+#module			gsm.so
+#module			l16.so
+module			speex.so
+#module			celt.so
+#module			bv32.so
+
+# Audio filter Modules (in order)
+# NOTE: AEC should be before Preproc
+#module			sndfile.so
+#module			speex_aec.so
+#module			speex_pp.so
+#module			speex_resamp.so
+#module			plc.so
+
+# Audio driver Modules
+#module			oss.so
+module			alsa.so
+#module			portaudio.so
+#module			gst.so
+
+# Video codec Modules (in order)
+module			avcodec.so
+#module			vpx.so
+
+# Video source modules
+#module			avformat.so
+#module			v4l.so
+#module			v4l2.so
+
+# Video display modules
+#module			sdl.so
+#module			x11.so
+
+# Media NAT modules
+module			stun.so
+module			turn.so
+module			ice.so
+
+# Media encoding modules
+#module			srtp.so
+
+# Other modules
+#module			natbd.so
+
+#------------------------------------------------------------------------------
+# Module parameters
+
+
+# Speex codec parameters
+speex_quality		7 # 0-10
+speex_complexity	7 # 0-10
+speex_enhancement	0 # 0-1
+speex_vbr		0 # Variable Bit Rate 0-1
+speex_vad		0 # Voice Activity Detection 0-1
+speex_agc_level	8000
+
+# NAT Behavior Discovery
+natbd_server		creytiv.com
+natbd_interval		600		# in seconds

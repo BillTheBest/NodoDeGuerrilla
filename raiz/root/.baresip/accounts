@@ -1,0 +1,29 @@
+#
+# SIP accounts - one account per line
+#
+# Displayname <sip:user:password@domain;uri-params>;addr-params
+#
+#  uri-params:
+#    ;transport={udp,tcp,tls}
+#
+#  addr-params:
+#    ;outbound=sip:primary.example.com
+#    ;regint=3600
+#    ;sipnat={outbound}
+#    ;auth_user=username
+#    ;medianat={stun,turn,ice}
+#    ;rtpkeep={zero,stun,dyna,rtcp}
+#    ;stunserver=stun:[user:pass]@host[:port]
+#    ;mediaenc={srtp,srtp-mand}
+#    ;answermode={manual,early,auto}
+#    ;ptime={10,20,30,40,...}
+#    ;audio_codecs=speex/16000,pcma,...
+#    ;video_codecs=h264,h263,...
+#
+# Examples:
+#
+#  <sip:user:secret@domain.com;transport=tcp>
+#  <sip:user:secret@1.2.3.4;transport=tcp>
+#  <sip:user:secret@[2001:df8:0:16:216:6fff:fe91:614c]:5070;transport=tcp>
+#
+<sip:root:root@libre>

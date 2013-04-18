@@ -1,0 +1,8 @@
+# salaalberdi.juancarlosradio.com.ar
+# m h  dom mon dow   command
+
+# actualiza el DNS
+*/5 * * * * /root/mallacritica/dns
+
+# trata de conectar a una red abierta
+*/1 * * * * /root/mallacritica/wireless_autoconectar*/5 * * * * 	/usr/sbin/luci-splash sync
