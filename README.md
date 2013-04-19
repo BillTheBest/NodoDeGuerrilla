@@ -1,5 +1,13 @@
 #Nodo de Guerrilla
 
+Es un nodo pensado para compartir internet, almacenar (cachear) lo posible para acelerar internet, transmitir video localmente (icecast), compartir 
+archivos por la red interna (samba), si se le enfucha una cámara al router transmitir video, hablar por telefono (linphone) y chatear por IRC (ngirc 
+y pidgin)
+
+---
+
+#Primera experiencia
+
 Texto basado en la [experiencia en la Sala Alberdi](http://www.bibliobarracas.com.ar/?s=comando+richard+stallman) y a tenido varios éxitos y fracasos.
 
 ##Situación
@@ -18,6 +26,10 @@ Dada la configuración del router este se conecta solo a internet, a la red con 
 
 Portal cautivo para los vecinos y personas que se conectan por primera vez a la red, informando como usar la red, y sus características. Esto da la posibilidad de un encuentro con los vecinos de un modo diferente, tener un lugar donde informar sobre los sucesos, y explicar las características de la condición de la red. (no aplicado todavía)
 
+<pre>
+✔ esta andando
+</pre>
+
 ### Conectividad
 
 - Conectador a redes abiertas por señal ✔
@@ -29,13 +41,13 @@ Portal cautivo para los vecinos y personas que se conectan por primera vez a la 
 
 ### Servicios
 
-- Transmisor con AP y/o Portal cautivo (solo para clientes)
+- Transmisor con AP ✔  y/o Portal cautivo (solo para clientes)
 - Clon de un wifi (solo a redes abiertas)
 
 ## Piezas
 
 - polipo + tinyproxy + ziproxy
-- portal cautivo = dnsmasq + uhttpd + polipo (?), muy simple `echo "address=/#/gaspacho.local" >> /etc/dnsmasq.conf`
+- portal cautivo = dnsmasq + uhttpd ✔ + polipo (?), muy simple `echo "address=/#/gaspacho.local" >> /etc/dnsmasq.conf`
  - nocatsplash parece mejor que dnsmasq
 - armador de temas en bootstrap ✔ + contenido adhoc 
 - transmisor = mjpeg ✔ + sox
