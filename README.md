@@ -132,3 +132,9 @@ Como difundir y manejar le red. Manejar bien la información, hacer la red inter
 - Editor simple para el portal cautivo (posiblemente http://freifunk.net/)
 - Explicar como montar todo en una ISO
 
+
+##Vease
+
+- [OpenWRT](http://openwrt.org/)
+- [Polipo con cache y filtro](http://repo.hackcoop.com.ar/polipo-config.git/)
+- [Repo de hacklab](http://git.hackcoop.com.ar/)
