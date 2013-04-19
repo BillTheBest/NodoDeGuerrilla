@@ -1,6 +1,6 @@
 #Nodo de Guerrilla
 
-Texto basado en la experiencia en la _Sala Alberdi_, --todavía la experiencia no fue concluida-- y a tenido varios éxitos y fracasos.
+Texto basado en la [experiencia en la Sala Alberdi](http://www.bibliobarracas.com.ar/?s=comando+richard+stallman) y a tenido varios éxitos y fracasos.
 
 ##Situación
 
@@ -56,6 +56,8 @@ Portal cautivo para los vecinos y personas que se conectan por primera vez a la 
 </pre>	
 
 **paralelamente:** busco redes wps, wep y wap en listadas por potencia y trato de romperlas.
+
+---
 
 ###Problemas cotidianos
 
