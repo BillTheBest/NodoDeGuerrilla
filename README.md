@@ -1,6 +1,6 @@
 #Nodo de Guerrilla
 
-Nodo para compartir internet y tener servicios de intranet
+Configuración de [OpenWRT](http://openwrt.org/) para compartir internet y tener servicios de intranet
 
 - Es un nodo pensado para compartir internet (con un solo dispositivo)
  - Almacenar, cachear, lo posible para acelerar internet [polipo](http://www.pps.univ-paris-diderot.fr/~jch/software/polipo/) y [ziproxy](http://ziproxy.sourceforge.net/)
