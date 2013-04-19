@@ -1,14 +1,21 @@
 #Nodo de Guerrilla
 
-Es un nodo pensado para compartir internet, almacenar (cachear) lo posible para acelerar internet, transmitir video localmente (icecast), compartir 
-archivos por la red interna (samba), si se le enfucha una cámara al router transmitir video, hablar por telefono (linphone) y chatear por IRC (ngirc 
-y pidgin)
+Nodo automagico para compartir internet y tener servicios de intranet
+
+
+- Es un nodo pensado para compartir internet
+ - Almacenar (cachear) lo posible para acelerar internet 
+- Transmitir video localmente (icecast)
+- Compartir archivos por la red interna (samba) 
+- Si se le enfucha una webcam al router transmitir video (automaticametne)
+- Hablar por SIP telefónia (linphone)
+- Chatear por IRC (ngirc y pidgin)
 
 ---
 
 #Primera experiencia
 
-Texto basado en la [experiencia en la Sala Alberdi](http://www.bibliobarracas.com.ar/?s=comando+richard+stallman) y a tenido varios éxitos y fracasos.
+Texto basado en la [experiencia en la Sala Alberdi](http://www.bibliobarracas.com.ar/?s=comando+richard+stallman) a tenido varios éxitos y fracasos.
 
 ##Situación
 
@@ -16,19 +23,18 @@ Es una acampe en una plaza seca y la toma de una sala de teatro en el 6to piso d
 
 El problema que se plantea es tener una conexión a internet e intranet para la comunicación interna del grupo y sobre todo comunicación con la gente encerrada en el 6to piso.
 
-##Solución
-
-Para resolver el problema que se plantea conectar un router por **wireless** usando redes disponibles, hay varias de ellas de abiertas y **WEP** (y se conoce la clave de muchas de ellas).
-
-Luego de conectar a internet se necesita algo que transmita la información a las maquinas conectadas por aire, para eso se usa un router que pueda ser puesto en modo AP (punto de acceso) y cliente.
-
-Dada la configuración del router este se conecta solo a internet, a la red con mayor señal y disponibilidad de internet.
-
-Portal cautivo para los vecinos y personas que se conectan por primera vez a la red, informando como usar la red, y sus características. Esto da la posibilidad de un encuentro con los vecinos de un modo diferente, tener un lugar donde informar sobre los sucesos, y explicar las características de la condición de la red. (no aplicado todavía)
-
 <pre>
 ✔ esta andando
 </pre>
+
+##Solución
+
+
+Para resolver el problema que se plantea conectar un router por **wireless** usando redes disponibles, hay varias de ellas de abiertas y **WEP** (y se conoce la clave de muchas de ellas).
+Luego de conectar a internet se necesita algo que transmita la información a las maquinas conectadas por aire, para eso se usa un router que pueda ser puesto en modo AP (punto de acceso) y cliente.
+Dada la configuración del router este se conecta solo a internet, a la red con mayor señal y disponibilidad de internet.
+Portal cautivo para los vecinos y personas que se conectan por primera vez a la red, informando como usar la red, y sus características. Esto da la posibilidad de un encuentro con los vecinos de un modo diferente, tener un lugar donde informar sobre los sucesos, y explicar las características de la condición de la red. (no aplicado todavía)
+
 
 ### Conectividad
 
