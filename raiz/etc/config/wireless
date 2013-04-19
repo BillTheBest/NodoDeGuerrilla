@@ -11,14 +11,6 @@ config wifi-device  radio0
 	option disabled 0
 
 config wifi-iface
-	option device   radio0
-	option network  wan
-	option mode     sta
-	option ssid     'EDUARDO'
-	option encryption psk
-	option key '080158bb781f0865c4b7e9886e2a48a8607a9ab020476e3dd906aa110daed82a'
-
-config wifi-iface
         option device 'radio0'
         option network 'lan'
         option mode 'ap'

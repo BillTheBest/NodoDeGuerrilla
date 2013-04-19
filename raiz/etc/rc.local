@@ -6,12 +6,11 @@
 # streaming simple de video
 # http://sourceforge.net/apps/mediawiki/mjpg-streamer/index.php?title=Output_file
 
-
 # webcam
 /root/mallacritica/video &
 
 # mp3
-/root/mallacritica/mp3 &
+#/root/mallacritica/mp3 &
 
 
 exit 0
