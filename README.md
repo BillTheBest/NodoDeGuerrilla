@@ -2,11 +2,11 @@
 
 Nodo para compartir internet y tener servicios de intranet
 
-- Es un nodo pensado para compartir internet
+- Es un nodo pensado para compartir internet (con un solo dispositivo)
  - Almacenar, cachear, lo posible para acelerar internet [polipo](http://www.pps.univ-paris-diderot.fr/~jch/software/polipo/) y [ziproxy](http://ziproxy.sourceforge.net/)
 - Transmitir video localmente [icecast](http://icecast.org/)
 - Compartir archivos por la red interna [samba](https://www.samba.org/) 
-- Si se le enfucha una [webcam al router](http://h-wrt.com/en/doc/webcam) transmitir video
+- Si se le enfucha una [webcam al router](http://h-wrt.com/en/doc/webcam) transmitir video, ver [Edison Carter](http://)
 - Hablar por SIP telefónia [linphone](http://linphone.org/)
 - Chatear por IRC [ngirc](http://ngircd.barton.de/) y [pidgin](http://pidgin.im/)
 
