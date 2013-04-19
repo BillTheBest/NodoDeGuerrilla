@@ -72,7 +72,7 @@ Portal cautivo para los vecinos y personas que se conectan por primera vez a la 
 		\ SI: me conecto
 </pre>	
 
-**paralelamente:** busco redes wps, wep y wap en listadas por potencia y trato de romperlas.
+**paralelamente:** busco redes wps, wep y wap en listadas por potencia y [trato de romperlas](quehaceres/wepcrack.sh).
 
 ---
 
