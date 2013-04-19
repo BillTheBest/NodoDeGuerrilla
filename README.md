@@ -20,12 +20,12 @@ Portal cautivo para los vecinos y personas que se conectan por primera vez a la 
 
 ### Conectividad
 
-- Conectador a redes abiertas por señal [x]
- - se conecte a los routers de una lista (wep o wap) [x]
+- Conectador a redes abiertas por señal ✔
+ - se conecte a los routers de una lista (wep o wap) ✔
  - rompa redes en su tiempo libre
 - Transmisor a internet suficiente
  - enviar track de sonidos uno tras otro
- - enviar fotos en secuencia [x]
+ - enviar fotos en secuencia ✔
 
 ### Servicios
 
@@ -37,8 +37,8 @@ Portal cautivo para los vecinos y personas que se conectan por primera vez a la 
 - polipo + tinyproxy + ziproxy
 - portal cautivo = dnsmasq + uhttpd + polipo (?), muy simple `echo "address=/#/gaspacho.local" >> /etc/dnsmasq.conf`
  - nocatsplash parece mejor que dnsmasq
-- armador de temas en bootstrap [x] + contenido adhoc 
-- transmisor = mjpeg [x] + sox
+- armador de temas en bootstrap ✔ + contenido adhoc 
+- transmisor = mjpeg ✔ + sox
 - rompedor de claves = script con aircrack
 - imitador de wifi = algo que lea MAC, frecuencia, SSID y los ponga en el router.
 - chat con mosquitto
