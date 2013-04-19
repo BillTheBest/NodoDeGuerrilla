@@ -18,21 +18,21 @@ Dada la configuración del router este se conecta solo a internet, a la red con 
 
 Portal cautivo para los vecinos y personas que se conectan por primera vez a la red, informando como usar la red, y sus características. Esto da la posibilidad de un encuentro con los vecinos de un modo diferente, tener un lugar donde informar sobre los sucesos, y explicar las características de la condición de la red. (no aplicado todavía)
 
-### Conectividad:
+### Conectividad
 
 - Conectador a redes abiertas por señal [x]
- - se conete a los routers de una lista (wep o wap) [x]
+ - se conecte a los routers de una lista (wep o wap) [x]
  - rompa redes en su tiempo libre
 - Transmisor a internet suficiente
  - enviar track de sonidos uno tras otro
  - enviar fotos en secuencia [x]
 
-### Servicios:
+### Servicios
 
 - Transmisor con AP y/o Portal cautivo (solo para clientes)
 - Clon de un wifi (solo a redes abiertas)
 
-## Piezas:
+## Piezas
 
 - polipo + tinyproxy + ziproxy
 - portal cautivo = dnsmasq + uhttpd + polipo (?), muy simple `echo "address=/#/gaspacho.local" >> /etc/dnsmasq.conf`
@@ -44,10 +44,10 @@ Portal cautivo para los vecinos y personas que se conectan por primera vez a la 
 - chat con mosquitto
 - lvpn
 
-### Mecanica:
+### Mecánica
 
 <pre>
-	Lista de redes (enlistada por potencia)
+	Lista de redes (en listada por potencia)
 		|
 	¿alguna conocida?
 		| \ SI: me conecto
@@ -55,7 +55,7 @@ Portal cautivo para los vecinos y personas que se conectan por primera vez a la 
 		\ SI: me conecto
 </pre>	
 
-**paralelamente:** busco redes wps, wep y wap enlistadas por potencia y trato de romperlas.
+**paralelamente:** busco redes wps, wep y wap en listadas por potencia y trato de romperlas.
 
 ###Problemas cotidianos
 
@@ -86,7 +86,7 @@ La mayoría de la gente no entiende el conecto de red interna
 
 #####Solución
 
-Ejemplificar con servicios simple y efectivos. Ejemplo: Paginas de descargas, [IRC](http://www.pidgin.im/), [Linphone](http://www.linphone.com/), portal cautivo (no aplicado todavía)
+Ejemplificar con servicios simple y efectivos: Paginas de descargas, [IRC](http://www.pidgin.im/), [Linphone](http://www.linphone.com/), portal cautivo (no aplicado todavía)
 
 ####Sobrecarga de la red
 
