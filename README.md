@@ -1,6 +1,6 @@
 #Nodo de Guerrilla
 
-Texto basado en la experiencia en la _Sala Alberdi_, todavía la experiencia no fue concluida y a tenido varios éxitos y fracasos.
+Texto basado en la experiencia en la _Sala Alberdi_, --todavía la experiencia no fue concluida-- y a tenido varios éxitos y fracasos.
 
 ##Situación
 
@@ -86,7 +86,7 @@ La mayoría de la gente no entiende el conecto de red interna
 
 #####Solución
 
-Ejemplificar con servicios simple y efectivos. Ejemplo: Paginas de descargas, IRC, Linphone, portal cautivo (no aplicado todavía)
+Ejemplificar con servicios simple y efectivos. Ejemplo: Paginas de descargas, [IRC](http://www.pidgin.im/), [Linphone](http://www.linphone.com/), portal cautivo (no aplicado todavía)
 
 ####Sobrecarga de la red
 
