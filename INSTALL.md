@@ -21,10 +21,12 @@ config wifi-iface
 </pre>
 
 **none:** sin codificar
+
 **wep:** con codifcicacion WEP, la clave va en texto plano
+
 **psk:** codificacion WAP, la clave hay que generarla con `wpa_passphrase`
 
-## Generar ISO
+## Generar IOS
 
 genera particiones en un pendrive: con intercambio (swap) y raíz (root), por ahora lo creo usando gparted y 
 
