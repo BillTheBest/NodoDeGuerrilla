@@ -1,6 +1,4 @@
-# Instalación
-
-**NO ANDAN LOS INSTALADORES TODAVIA**
+# Instalación paso a paso
 
 - [Equipos soportados](http://wiki.openwrt.org/toh/start)
 - [Instalación](http://wiki.openwrt.org/doc/howto/generic.flashing)
@@ -8,17 +6,43 @@
   - Particionar discos
   - Copiar archivos
 
+## Conectar el router a internet
+
+Agregar en `/etc/config/wireless` lo siguiente.
+
+<pre>
+config wifi-iface
+        option device   radio0
+        option network  wan
+        option mode     sta
+        option ssid     EDUARDO
+        option encryption [none|wep|psk]
+        option key      [clave]
+</pre>
+
+**none:** sin codificar
+**wep:** con codifcicacion WEP, la clave va en texto plano
+**psk:** codificacion WAP, la clave hay que generarla con `wpa_passphrase`
+
 ## Generar ISO
 
-genera una iso con intercambio (swap) y raíz (root)
+genera particiones en un pendrive: con intercambio (swap) y raíz (root), por ahora lo creo usando gparted y 
 
-## Instalar `Ext Root`
+## Raíz Extendia (Ext Root)
 
-genera el extendido root
+Copiar `/etc/config/fstab` a la memoria del router para montar automaticamente la imagen al iniciar.
 
-## Instalar `programas necesarios` ?
+### Montarlo
 
-Este predirá hacerse en el mismo router
+<pre>
+opkg update
+opkg install block-mount hotplug2 kmod-fs-ext4
+/etc/init.d/fstab enable
+/etc/init.d/fstab start
+/etc/init.d/fstab overlay_enabele
+</pre>
+
+No se si estan todos
 
 ## Quehaceres
 
