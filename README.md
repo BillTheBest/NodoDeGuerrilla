@@ -2,13 +2,19 @@
 
 Configuración de [OpenWRT](http://openwrt.org/) para compartir internet y tener servicios de intranet
 
+![portal](capturas/principal.png)
+
 - Es un nodo pensado para compartir internet (con un solo dispositivo)
  - Almacenar, cachear, lo posible para acelerar internet [polipo](http://www.pps.univ-paris-diderot.fr/~jch/software/polipo/) y [ziproxy](http://ziproxy.sourceforge.net/)
-- Transmitir video localmente [icecast](http://icecast.org/)
+- Transmitir vídeo localmente [icecast](http://icecast.org/)
 - Compartir archivos por la red interna [samba](https://www.samba.org/) 
-- Si se le enfucha una [webcam al router](http://h-wrt.com/en/doc/webcam) transmitir video, ver [Edison Carter](http://)
+- Si se le enchufa una [webcam al router](http://h-wrt.com/en/doc/webcam) transmitir vídeo, ver [Edison Carter](https://github.com/b4zz4/ManifestanteXXI#edison-carter)
+
+![mensajeria](capturas/mensajeria.png)  
+
 - Hablar por SIP telefónia [linphone](http://linphone.org/)
 - Chatear por IRC [ngirc](http://ngircd.barton.de/) y [pidgin](http://pidgin.im/)
+
 
 ---
 
@@ -67,7 +73,8 @@ Portal cautivo para los vecinos y personas que se conectan por primera vez a la 
 	Lista de redes (en listada por potencia)
 		|
 	¿alguna conocida?
-		| \ SI: me conecto
+	        | \ SI: me conecto
+	     NO |
 	hay redes abiertas
 		\ SI: me conecto
 </pre>	
@@ -83,11 +90,9 @@ Portal cautivo para los vecinos y personas que se conectan por primera vez a la 
 La mayoría de los equipos electrónicos si se desconectan no ocurre casi nada, en el caso del router deja sin disponibilidad de red a los usuarios, tarda mucho en volver a iniciar cuando se lo reconecta, genera la falsa impresión de que no anda y puede romperse.
 Muchas veces, demasiadas, las cosas no están donde las dejamos o se las desconectan, o cambian de posición y/o forma.
 
-
 - Por falta de atención
 - Por malas costumbres
 - No les parece que la red sea importante, igual hay redes a las cuales conectarse.
-
 
 #####Solución
 
@@ -96,12 +101,9 @@ Muchas veces, demasiadas, las cosas no están donde las dejamos o se las descone
 - Hace un toma corrientes dedicado para la red, encintarlo (con cinta aisladora) y hacer notas de que eso no hay que tocarlo.
 - Baterías con un cargador (no aplicada todavía)
 
-
 ####Red interna
 
-
 La mayoría de la gente no entiende el conecto de red interna
-
 
 #####Solución
 
@@ -150,7 +152,7 @@ Como difundir y manejar le red. Manejar bien la información, hacer la red inter
 - Editor simple para el portal cautivo (posiblemente http://freifunk.net/)
 - Explicar como montar todo en una ISO
 - Lista de claves web editables
-- Conexion a wifi usando comandos de uci
+- Conexión a wifi usando comandos de uci
 
 
 ##Vease
