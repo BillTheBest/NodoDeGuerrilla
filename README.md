@@ -5,8 +5,9 @@ Configuración de [OpenWRT](http://openwrt.org/) para compartir internet y tener
 ![portal](capturas/principal.png)
 
 - Es un nodo pensado para compartir internet con un solo dispositivo.
- - Conexión automatica a redes abiertas
+ - Conexión automática a redes abiertas
  - Almacenar, cachear, lo posible para acelerar internet [polipo](http://www.pps.univ-paris-diderot.fr/~jch/software/polipo/) y [ziproxy](http://ziproxy.sourceforge.net/)
+ - Posibilidad de conectar otros routers y compartir internet desde ahí
 - Compartir archivos por la red interna [samba](https://www.samba.org/) y portal
 - Transmitir vídeo localmente [mjpg-streamer](https://wiki.openwrt.org/doc/howto/webcam) 
  - Si se le enchufa una [webcam al router](http://h-wrt.com/en/doc/webcam) transmitir vídeo, ver [Edison Carter](https://github.com/b4zz4/ManifestanteXXI#edison-carter)
