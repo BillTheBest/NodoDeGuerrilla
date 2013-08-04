@@ -4,17 +4,17 @@ Configuración de [OpenWRT](http://openwrt.org/) para compartir internet y tener
 
 ![portal](capturas/principal.png)
 
-- Es un nodo pensado para compartir internet (con un solo dispositivo)
+- Es un nodo pensado para compartir internet con un solo dispositivo.
+ - Conexión automatica a redes abiertas
  - Almacenar, cachear, lo posible para acelerar internet [polipo](http://www.pps.univ-paris-diderot.fr/~jch/software/polipo/) y [ziproxy](http://ziproxy.sourceforge.net/)
-- Transmitir vídeo localmente [icecast](http://icecast.org/)
-- Compartir archivos por la red interna [samba](https://www.samba.org/) 
-- Si se le enchufa una [webcam al router](http://h-wrt.com/en/doc/webcam) transmitir vídeo, ver [Edison Carter](https://github.com/b4zz4/ManifestanteXXI#edison-carter)
+- Compartir archivos por la red interna [samba](https://www.samba.org/) y portal
+- Transmitir vídeo localmente [mjpg-streamer](https://wiki.openwrt.org/doc/howto/webcam) 
+ - Si se le enchufa una [webcam al router](http://h-wrt.com/en/doc/webcam) transmitir vídeo, ver [Edison Carter](https://github.com/b4zz4/ManifestanteXXI#edison-carter)
 
-![mensajeria](capturas/mensajeria.png)  
+![mensajeria](capturas/mensajeria.png)
 
 - Hablar por SIP telefónia [linphone](http://linphone.org/)
 - Chatear por IRC [ngirc](http://ngircd.barton.de/) y [pidgin](http://pidgin.im/)
-
 
 ---
 
